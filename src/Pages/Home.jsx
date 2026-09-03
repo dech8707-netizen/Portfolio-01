@@ -3,6 +3,10 @@ import StarBackground from "../Components/StarBackground";
 import ThemeToggle from "../Components/ThemeToggle";
 import HeroSection from "../Components/HeroSection";
 import AboutMe from "../Components/AboutMe";
+import SkillsSection from "../Components/SkillsSection";
+import ProjectSection from "../Components/ProjectSection";
+import ContactSection from "../Components/ContactSection";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return(
@@ -21,11 +25,15 @@ const Home = () => {
       <main>
          <HeroSection />
          <AboutMe />
+         <SkillsSection />
+         <ProjectSection />
+         <ContactSection />
 
       </main>
 
 
       {/* Footer */}
+      <Footer />
     </div>
   )
 }
